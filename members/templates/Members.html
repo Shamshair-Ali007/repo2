@@ -1,0 +1,16 @@
+{% extends 'master.html' %}
+
+{% block title %}
+    List of All Members
+{% endblock %}
+
+
+{% block content %}
+    <h1 class="text-success">Users List</h1>
+    <ul class="bg-warning">
+        {% for x in users %}
+        <li> <a href="details/{{x.id}}"> {{x.name}} </a>  </li>
+        {% endfor %}
+    </ul>
+    <p>This paragraph is coming fromt the templates</p>  
+{% endblock%}

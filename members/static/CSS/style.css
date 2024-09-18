@@ -1,0 +1,17 @@
+table{
+    background-color: rgb(150, 219, 246);
+    color: rgb(47, 39, 204);
+}
+body{
+    background-color: rgb(199, 188, 236);
+    color: red;
+}
+h1{
+    color: rgb(8, 98, 35);
+}
+a{
+    color: aliceblue;
+}
+li{
+    color: aqua;
+}

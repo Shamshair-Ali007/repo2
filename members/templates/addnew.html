@@ -1,0 +1,12 @@
+<html>
+<body>
+   <form action="../addnew/" method="post">
+      {% csrf_token %}
+      <p><label for="Name">Name: </label>
+      <input id="Name" type="text" name="Name"></p>
+      <p><label for="Age">Age: </label>
+      <input id="Age" type="text" name="Age"></p>
+      <input type="submit" value="OK">
+   </form>
+</body>
+</html>
